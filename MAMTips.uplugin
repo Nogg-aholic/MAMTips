@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"Version": 0,
-	"VersionName": "0.1.0",
-	"SemVersion": "0.1.0",
+	"VersionName": "0.2.0",
+	"SemVersion": "0.2.0",
 	"FriendlyName": "MAM Enhancer",
 	"Description": "This mod modifies the base game MAM UI to provide additional information to the player. See more info on the mod page: https://ficsit.app/mod/EPUmESEWaBCk4n",
 	"Category": "Modding",
