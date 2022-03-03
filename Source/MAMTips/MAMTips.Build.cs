@@ -2,7 +2,6 @@
 
 using UnrealBuildTool;
 using System.IO;
-using System.Text;
 using Tools.DotNETCommon;
 
 public class MAMTips : ModuleRules

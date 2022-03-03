@@ -17,7 +17,7 @@ class MAMTIPS_API UMAMTipsBPLib : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 
-	UFUNCTION(BlueprinTCallable)
+	UFUNCTION(BlueprintCallable)
 	static void BindOnWidgetConstruct(const TSubclassOf<UUserWidget> WidgetClass, FOnWidgetCreated Binding);
 
 	static FOnWidgetCreated OnWidgetCreated;
