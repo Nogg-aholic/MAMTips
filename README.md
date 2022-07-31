@@ -30,10 +30,12 @@ This mod modifies the base game MAM UI to provide additional information to the 
     <source src="https://i.imgur.com/h6bDMw6.mp4" autoplay="" controls="" type="video/mp4">
     </video>
 
+* **Re-open the the same Tree you viewed last time** you had the MAM open (configurable)
 * View the **item name and descriptions** of the items a MAM Node will unlock by hovering over them (see the second image)
 * See **tree completion progress at a glance** from the list, with a percentage, progress bar, or both.
 * See the text **description of the Node** you are viewing (a special field that mods can add to their nodes)
 * Figure out **what mod added the research tree** via the mod's icon in the tree selection list, as well as display name and icon in the tree's hover tooltip.
+* Developer functions for helping to test mods with research trees (see more below)
 
 Don't like something this mod does? Just press the 'Inventory' tab, and the MAM will return to its usual display behavior. You can also turn off the node display changes in the mod configs.
 
@@ -47,8 +49,26 @@ Don't like something this mod does? Just press the 'Inventory' tab, and the MAM 
 
 ## For Developers
 
-When in 'Info' view mode, the Description of the selected node's associated Schematic is shown along with the usual tooltip details. *This is not normally visible in the base game*. Furthermore, this mod allows users to hover over the items that Node will unlock and see their descriptions - also not possible in the base game. As such, having this mod as a dependency allows you to display more information to users in your MAM trees.
+When in 'Info' view mode, the Description of the selected node's associated Schematic is shown along with the usual tooltip details. *This is not normally visible in the base game*. Furthermore, this mod allows users to hover over the items that Node will unlock and see their descriptions - also not possible in the base game. As such, **having this mod as a dependency allows you to display more information to users in your MAM trees.**
 
 The mod icon that this mod renders in the MAM is the same as the one you have included with your mod for display on the Mods menu. If you see the white warning file icon instead, you are missing some configuration files that allow your mod icon to be packed with the rest of your mod files. You can find directions on how to set that up [here](https://docs.ficsit.app/satisfactory-modding/latest/Development/BeginnersGuide/Adding_Ingame_Mod_Icon.html).
 
-Thanks to Deantendo#4265 for the original mod icon, which was further modified by Robb
+If you enable the 'Debugging Features' config option, which is off by default, you'll open up a bunch of tools to help with testing mods with research trees.
+These features include:
+
+* Grant/revoke access to viewing a tree (to test what the tree's name, icon, and description appear as)
+* Grant/revoke specific nodes in the tree directly from inside the MAM
+  * The button appears in the node details, so to do this for hidden nodes, enable the 'Reveal Details of Hidden Nodes' config option
+  * When revoking, it will revoke recipes unlocked by the node, but it can't undo things like hand slots or other schematics (ex. AWESOME Shop) made available by the node
+* Grant/revoke access to every node in a tree at once
+* Reset the mod's internal tutorial
+
+<video controls="" width="360" height="203">
+  <source src="https://i.imgur.com/INP46Gk.mp4" autoplay="" controls="" type="video/mp4">
+</video>
+
+## Credits
+
+Thanks to Deantendo#4265 for the original mod icon, which was further modified by Robb.
+
+Thanks to SifVerT#2610 for pointers in getting the debugging features set up.
