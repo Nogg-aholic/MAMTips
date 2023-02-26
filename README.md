@@ -22,6 +22,7 @@ Check out **LK Aice**'s mod spotlight below, in English or German. Thanks!
 
 This mod modifies the base game MAM UI to provide additional information to the player.
 
+* Configure the mod directly from the MAM
 * Select from a number of **improved display options** for already researched and hidden Nodes in the Mod Configs (see video above)
 * Directly **add required items to your To-Do List** (wip, see tooltip ingame for more info)
   * Use in tandem with the [PowerSuit Logistic Modules](https://ficsit.app/mod/AEr7ASfJHWpnhL) mod to seamlessly request items from storage for your research!
@@ -35,9 +36,16 @@ This mod modifies the base game MAM UI to provide additional information to the 
 * See **tree completion progress at a glance** from the list, with a percentage, progress bar, or both.
 * See the text **description of the Node** you are viewing (a special field that mods can add to their nodes)
 * Figure out **what mod added the research tree** via the mod's icon in the tree selection list, as well as display name and icon in the tree's hover tooltip.
+* **Zoom out** to see more of a tree at once
+
+    <video controls="" width="360" height="203">
+      <source src="https://i.imgur.com/V1OrNlE.mp4" autoplay="" controls="" type="video/mp4">
+    </video>
+
 * Developer functions for helping to test mods with research trees (see more below)
 
-Don't like something this mod does? Just press the 'Inventory' tab, and the MAM will return to its usual display behavior. You can also turn off the node display changes in the mod configs.
+Don't like something this mod does? Just press the 'Inventory' tab, and the MAM will return to its usual display behavior.
+You can also turn off the node display changes in the mod configs.
 
 ### Questions? Suggestions? Join the [Nog's Mods Discord server](https://discord.gg/uKKFX2tWfh) or leave an issue on the [GitHub issues page](https://github.com/Nogg-aholic/MAMTips/issues) (slower response time)
 
@@ -45,15 +53,25 @@ Don't like something this mod does? Just press the 'Inventory' tab, and the MAM 
 
 ![View mod that added the tree](https://i.imgur.com/c50zyP5.png)
 
+How to find the configs outside of the MAM:
+
 ![Configs](https://i.imgur.com/eX9QV58.png)
 
 ## For Developers
+
+### Extra Capability for your Mod
 
 When in 'Info' view mode, the Description of the selected node's associated Schematic is shown along with the usual tooltip details. *This is not normally visible in the base game*. Furthermore, this mod allows users to hover over the items that Node will unlock and see their descriptions - also not possible in the base game. As such, **having this mod as a dependency allows you to display more information to users in your MAM trees.**
 
 The mod icon that this mod renders in the MAM is the same as the one you have included with your mod for display on the Mods menu. If you see the white warning file icon instead, you are missing some configuration files that allow your mod icon to be packed with the rest of your mod files. You can find directions on how to set that up [here](https://docs.ficsit.app/satisfactory-modding/latest/Development/BeginnersGuide/Adding_Ingame_Mod_Icon.html).
 
-If you enable the 'Debugging Features' config option, which is off by default, you'll open up a bunch of tools to help with testing mods with research trees.
+### Debugging Features
+
+This option can't be configured from inside the MAM -
+you must be on the pause screen or main menu to change it.
+
+If you enable the 'Debugging Features' config option, which is off by default,
+you'll open up a bunch of tools to help with testing mods with research trees.
 These features include:
 
 * Grant/revoke access to viewing a tree (to test what the tree's name, icon, and description appear as)

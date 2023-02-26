@@ -1,14 +1,14 @@
 {
 	"FileVersion": 3,
-	"Version": 0,
-	"SemVersion": "0.6.0",
-	"VersionName": "0.6.0",
+	"Version": 1,
+	"SemVersion": "1.0.3",
+	"VersionName": "1.0.3",
 	"FriendlyName": "MAM Enhancer",
-	"Description": "This mod modifies the base game MAM UI to provide additional information to the player. See more info on the mod page: https://ficsit.app/mod/MAMTips",
+	"Description": "Modifies the base game MAM UI to provide additional information to the player. See more info on the mod page.",
 	"Category": "Modding",
 	"CreatedBy": "Nog, Robb",
-	"CreatedByURL": "https://ficsit.app/mod/MAMTips",
-	"DocsURL": "https://github.com/Nogg-aholic/MAMTips",
+	"CreatedByURL": "https://github.com/Nogg-aholic/MAMTips",
+	"DocsURL": "https://ficsit.app/mod/MAMTips",
 	"MarketplaceURL": "",
 	"SupportURL": "http://discord.gg/zqp6U7Y7Nu",
 	"CanContainContent": true,
@@ -26,7 +26,7 @@
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.3.0"
+			"SemVersion": "^3.4.0"
 		}
 	]
 }

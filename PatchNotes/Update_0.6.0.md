@@ -1,4 +1,4 @@
-Supports both U5 and U6. New 'reopen last selected tree.' New debugging capabilities for devs.
+Supports both U5 and U6. New 'reopen last selected tree' feature. New debugging capabilities for devs.
 
 
 
