@@ -36,6 +36,7 @@ This mod modifies the base game MAM UI to provide additional information to the 
 * See **tree completion progress at a glance** from the list, with a percentage, progress bar, or both.
 * See the text **description of the Node** you are viewing (a special field that mods can add to their nodes)
 * Figure out **what mod added the research tree** via the mod's icon in the tree selection list, as well as display name and icon in the tree's hover tooltip.
+* Figure out **what mod added a HUB Milestone** via the mod's icon in the list, as well as display name and icon in the icon's hover tooltip.
 * **Zoom out** to see more of a tree at once
 
     <video controls="" width="360" height="203">
@@ -75,6 +76,7 @@ you'll open up a bunch of tools to help with testing mods with research trees.
 These features include:
 
 * Grant/revoke access to viewing a tree (to test what the tree's name, icon, and description appear as)
+* Grant/revoke specific Milestones directly from inside the HUB
 * Grant/revoke specific nodes in the tree directly from inside the MAM
   * The button appears in the node details, so to do this for hidden nodes, enable the 'Reveal Details of Hidden Nodes' config option
   * When revoking, it will revoke recipes unlocked by the node, but it can't undo things like hand slots or other schematics (ex. AWESOME Shop) made available by the node
