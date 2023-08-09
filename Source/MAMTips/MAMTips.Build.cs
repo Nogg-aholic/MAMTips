@@ -2,7 +2,10 @@
 
 using UnrealBuildTool;
 using System.IO;
-using Tools.DotNETCommon;
+using System;
+using System.Runtime.InteropServices;
+using System.Text;
+using EpicGames.Core;
 
 public class MAMTips : ModuleRules
 {

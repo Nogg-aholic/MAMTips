@@ -20,23 +20,26 @@ Check out **LK Aice**'s mod spotlight below, in English or German. Thanks!
 
 **Multiplayer Compatible!**
 
-This mod modifies the base game MAM UI to provide additional information to the player.
+This mod **modifies** the base game **MAM, HUB, and AWESOME Shop UI** to **provide additional information to the player**.
 
 * Configure the mod directly from the MAM
 * Select from a number of **improved display options** for already researched and hidden Nodes in the Mod Configs (see video above)
-* Directly **add required items to your To-Do List** (wip, see tooltip ingame for more info)
+* Directly **add MAM Node required items to your To-Do List**
   * Use in tandem with the [PowerSuit Logistic Modules](https://ficsit.app/mod/AEr7ASfJHWpnhL) mod to seamlessly request items from storage for your research!
 
     <video controls="" width="360" height="203">
     <source src="https://i.imgur.com/h6bDMw6.mp4" autoplay="" controls="" type="video/mp4">
     </video>
 
-* **Re-open the the same Tree you viewed last time** you had the MAM open (configurable)
+* **Re-open the the same Research Tree you viewed** last time you had the MAM open (configurable)
 * View the **item name and descriptions** of the items a MAM Node will unlock by hovering over them (see the second image)
 * See **tree completion progress at a glance** from the list, with a percentage, progress bar, or both.
 * See the text **description of the Node** you are viewing (a special field that mods can add to their nodes)
 * Figure out **what mod added the research tree** via the mod's icon in the tree selection list, as well as display name and icon in the tree's hover tooltip.
 * Figure out **what mod added a HUB Milestone** via the mod's icon in the list, as well as display name and icon in the icon's hover tooltip.
+* Directly **add a HUB Milestone's required items to your To-Do List**
+* **Re-open the the same HUB Milestone you viewed** last time you had the HUB open (configurable)
+* Figure out **what mod added a AWESOME Shop entry** via the mod's icon in the list, as well as display name and icon in the icon's hover tooltip.
 * **Zoom out** to see more of a tree at once
 
     <video controls="" width="360" height="203">
@@ -77,10 +80,13 @@ These features include:
 
 * Grant/revoke access to viewing a tree (to test what the tree's name, icon, and description appear as)
 * Grant/revoke specific Milestones directly from inside the HUB
+* Grant/revoke specific Shop Purchases directly from inside the AWESOME Shop
+  * It will warn you if the purchase appears to be repeatable (unlocking it this way probably won't do anything then)
 * Grant/revoke specific nodes in the tree directly from inside the MAM
   * The button appears in the node details, so to do this for hidden nodes, enable the 'Reveal Details of Hidden Nodes' config option
   * When revoking, it will revoke recipes unlocked by the node, but it can't undo things like hand slots or other schematics (ex. AWESOME Shop) made available by the node
 * Grant/revoke access to every node in a tree at once
+* See the asset paths of Research Trees, Nodes, and HUB and AWESOME Shop schematics and easily copy them to clipboard
 * Reset the mod's internal tutorial
 
 <video controls="" width="360" height="203">
