@@ -32,6 +32,7 @@ This mod **modifies** the base game **MAM, HUB, and AWESOME Shop UI** to **provi
     </video>
 
 * **Re-open the the same Research Tree you viewed** last time you had the MAM open (configurable)
+  * Remembers the position you had scrolled to
 * View the **item name and descriptions** of the items a MAM Node will unlock by hovering over them (see the second image)
 * See **tree completion progress at a glance** from the list, with a percentage, progress bar, or both.
 * See the text **description of the Node** you are viewing (a special field that mods can add to their nodes)
