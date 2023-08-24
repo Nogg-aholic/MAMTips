@@ -6,7 +6,7 @@
 TSubclassOf<UObject> UMAMTipsBPLib::MAMTips_FindOrCreateClass(FString Name, UClass* ParentClass)
 {
 	// Safety checks before running the generator
-	auto found = FindObject<UClass>(ANY_PACKAGE, *Name, false);
+	auto found = FindObject<UClass>(FindPackage(nullptr, TEXT("/MAMTips/")), *Name, false);
 	if (Name == "") {
 		UE_LOG(LogMAMTips, Error, TEXT("Name was empty, can't create class"));
 		return nullptr;
@@ -15,7 +15,7 @@ TSubclassOf<UObject> UMAMTipsBPLib::MAMTips_FindOrCreateClass(FString Name, UCla
 		UE_LOG(LogMAMTips, Warning, TEXT("Class already existed so returning that instead of creating new"));
 		return found;
 	}
-	auto found_C = FindObject<UClass>(ANY_PACKAGE, *Name.Append("_C"), false);
+	auto found_C = FindObject<UClass>(FindPackage(nullptr, TEXT("/MAMTips/")), *Name.Append("_C"), false);
 	if (found_C) {
 		UE_LOG(LogMAMTips, Warning, TEXT("Class already existed with _C suffix so returning that instead of creating new"));
 		return found_C;

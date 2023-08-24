@@ -1,11 +1,23 @@
 # MAM Enhancer
 
-![Early Access version support: full](https://i.imgur.com/1TXo5em.png)
-![Experimental version support: full](https://i.imgur.com/kvJ4ZoR.png)
+<!-- ![Early Access version support: full](https://i.imgur.com/1TXo5em.png) -->
+<!-- ![Experimental version support: full](https://i.imgur.com/kvJ4ZoR.png) -->
 ![Singleplayer compatibility: full](https://i.imgur.com/S8roc0Y.png)
 ![Multiplayer compatibility: full](https://i.imgur.com/EnOtDkM.png)
 
-![Open tree view](https://i.imgur.com/B9a00jz.png)
+**Multiplayer Compatible!**
+
+This mod **modifies** the base game **MAM, HUB, and AWESOME Shop UI** to **provide additional information to the player** and **improve the user experience**.
+
+It provides no content on its own and _does not alter game progression in any way_ - just quality of life changes.
+
+Here is a screenshot of the base game Caterium research tree viewed with the mod's default settings:
+
+![Open Caterium tree view](https://i.imgur.com/nitpe1j.jpeg)
+
+Here is a screenshot of a [different mod's](https://ficsit.app/mod/ArmorModules) research tree that uses some extra features this mod offers:
+
+![Open PowerSuit view](https://i.imgur.com/A36tpYj.jpeg)
 
 <video controls="" width="720" height="405">
   <source src="https://i.imgur.com/FGeZnKd.mp4" autoplay="" controls="" type="video/mp4">
@@ -18,11 +30,7 @@ Check out **LK Aice**'s mod spotlight below, in English or German. Thanks!
 
 ## Overview
 
-**Multiplayer Compatible!**
-
-This mod **modifies** the base game **MAM, HUB, and AWESOME Shop UI** to **provide additional information to the player**.
-
-* Configure the mod directly from the MAM
+* Configure the mod's options directly from the MAM
 * Select from a number of **improved display options** for already researched and hidden Nodes in the Mod Configs (see video above)
 * Directly **add MAM Node required items to your To-Do List**
   * Use in tandem with the [PowerSuit Logistic Modules](https://ficsit.app/mod/AEr7ASfJHWpnhL) mod to seamlessly request items from storage for your research!
@@ -41,7 +49,7 @@ This mod **modifies** the base game **MAM, HUB, and AWESOME Shop UI** to **provi
 * Directly **add a HUB Milestone's required items to your To-Do List**
 * **Re-open the the same HUB Milestone you viewed** last time you had the HUB open (configurable)
 * Figure out **what mod added a AWESOME Shop entry** via the mod's icon in the list, as well as display name and icon in the icon's hover tooltip.
-* **Zoom out** to see more of a tree at once
+* **Zoom out** to see more of a MAM tree at once
 
     <video controls="" width="360" height="203">
       <source src="https://i.imgur.com/V1OrNlE.mp4" autoplay="" controls="" type="video/mp4">
@@ -66,9 +74,17 @@ How to find the configs outside of the MAM:
 
 ### Extra Capability for your Mod
 
-When in 'Info' view mode, the Description of the selected node's associated Schematic is shown along with the usual tooltip details. *This is not normally visible in the base game*. Furthermore, this mod allows users to hover over the items that Node will unlock and see their descriptions - also not possible in the base game. As such, **having this mod as a dependency allows you to display more information to users in your MAM trees.**
+When in 'Info' view mode, the Description of the selected node's associated Schematic is shown along with the usual tooltip details. *This is not normally visible in the base game*.
+Furthermore, this mod allows users to hover over the items that Node will unlock and see their descriptions - also not possible in the base game.
+As such, **having this mod as a dependency allows you to display more information to users in your MAM trees.**
 
-The mod icon that this mod renders in the MAM is the same as the one you have included with your mod for display on the Mods menu. If you see the white warning file icon instead, you are missing some configuration files that allow your mod icon to be packed with the rest of your mod files. You can find directions on how to set that up [here](https://docs.ficsit.app/satisfactory-modding/latest/Development/BeginnersGuide/Adding_Ingame_Mod_Icon.html).
+Furthermore, the mod also allows end users to hover over FGUnlockInfoOnly unlock types in the MAM, adding another method through which you can display more info to the user.
+In the base game, any description text you supply to Info Only unlocks is not viewable in the MAM.
+
+The mod icon that this mod renders in the MAM is the same as the one you have included with your mod for display on the Mods menu.
+If you see the white warning file icon instead, you are missing some configuration files that allow your mod icon to be packed with the rest of your mod files.
+You can find directions on how to set that up
+[here](https://docs.ficsit.app/satisfactory-modding/latest/Development/BeginnersGuide/Adding_Ingame_Mod_Icon.html).
 
 ### Debugging Features
 
