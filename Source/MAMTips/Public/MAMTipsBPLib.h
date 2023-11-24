@@ -21,9 +21,8 @@ class MAMTIPS_API UMAMTipsBPLib : public UBlueprintFunctionLibrary
 	friend class UFGFoliageResourceUserData;
 
 	/**
-	  * Used to dynamically create classes at runtime
-	  * Adapted from ContentLib
-	  * I have absolutely no idea how this works -Robb
+	  * Safety wrapper around FClassGenerator::GenerateSimpleClass
+	  * Only for stuff in the MAMTips package
 	  */
 	UFUNCTION(BlueprintCallable)
 		static TSubclassOf<UObject> MAMTips_FindOrCreateClass(FString Name, UClass* ParentClass);
@@ -34,18 +33,4 @@ class MAMTIPS_API UMAMTipsBPLib : public UBlueprintFunctionLibrary
 	UFUNCTION(BlueprintCallable)
 		static void MAMTips_SetRecipeProperties(TSubclassOf<class UFGRecipe> recipe, TArray< FItemAmount > mIngredients, TArray< FItemAmount > mProduct, FText mDisplayName);
 
-	UFUNCTION(BlueprintCallable)
-		static UFGFoliageResourceUserData* TEST_GetStaticMesh_FoliageResourceUserData(UStaticMesh* inMesh);
-
-	//UFUNCTION(BlueprintCallable)
-	//	static UFGFoliageResourceUserData* TEST_CastAssetDataToFG(UAssetUserData* assetData);
-
-	UFUNCTION(BlueprintCallable)
-		static const TArray<FItemDropWithChance>& TEST_GetAssetUserData_Drops(UFGFoliageResourceUserData* inData);
-
-	UFUNCTION(BlueprintCallable)
-		static bool TEST_HasFoliageIdentifier(UFGFoliageResourceUserData* inData, TSubclassOf< class UFGFoliageIdentifier > identifier);
-
-	UFUNCTION(BlueprintCallable)
-		static void TEST_GetItemDropWithChanceData(FItemDropWithChance inData, float& out_DropChance, TSubclassOf<class UFGItemDescriptor>& out_ItemClass, int32& out_Min, int32& out_Max);
 };

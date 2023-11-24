@@ -31,24 +31,3 @@ void UMAMTipsBPLib::MAMTips_SetRecipeProperties(TSubclassOf<class UFGRecipe> rec
 	CDO->mIngredients = mIngredients;
 	CDO->mProduct = mProduct;
 }
-
-UFGFoliageResourceUserData* UMAMTipsBPLib::TEST_GetStaticMesh_FoliageResourceUserData(UStaticMesh* inMesh) {
-	auto AssetUserData = inMesh->GetAssetUserDataOfClass(UFGFoliageResourceUserData::StaticClass());
-	return Cast<UFGFoliageResourceUserData>(AssetUserData);
-}
-
-const TArray<FItemDropWithChance>& UMAMTipsBPLib::TEST_GetAssetUserData_Drops(UFGFoliageResourceUserData* inData) {
-	return inData->GetPickupItems();
-}
-
-bool UMAMTipsBPLib::TEST_HasFoliageIdentifier(UFGFoliageResourceUserData* inData, TSubclassOf< class UFGFoliageIdentifier > identifier) {
-	return inData->IdentifiesWith(identifier);
-}
-
-void UMAMTipsBPLib::TEST_GetItemDropWithChanceData(FItemDropWithChance inData, float& out_DropChance, TSubclassOf<class UFGItemDescriptor>& out_ItemClass, int32& out_Min, int32& out_Max) {
-	auto ItemDrop = inData.Drop;
-	out_DropChance = inData.DropChance;
-	out_ItemClass = ItemDrop.ItemClass;
-	out_Max = ItemDrop.NumItems.Max;
-	out_Min = ItemDrop.NumItems.Min;
-}
