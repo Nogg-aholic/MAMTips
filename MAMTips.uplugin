@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"SemVersion": "1.4.0",
-	"VersionName": "1.4.0",
+	"SemVersion": "1.4.1",
+	"VersionName": "1.4.1",
 	"FriendlyName": "MAM Enhancer",
 	"Description": "Modifies the base game MAM UI to provide additional information to the player. See more info on the mod page.",
 	"Category": "Modding",
@@ -26,10 +26,8 @@
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.6.0",
+			"SemVersion": "^3.6.1",
 			"BasePlugin": false
 		}
-	],
-	"RemoteVersionRange": "",
-	"AcceptsAnyRemoteVersion": false
+	]
 }
