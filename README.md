@@ -5,9 +5,10 @@
 ![Singleplayer compatibility: full](https://i.imgur.com/S8roc0Y.png)
 ![Multiplayer compatibility: full](https://i.imgur.com/EnOtDkM.png)
 
-**Multiplayer Compatible!**
+**Multiplayer Compatible!** _Can also run as a client-side only mod as long as the server has SML installed._
 
-This mod **modifies** the base game **MAM, HUB, and AWESOME Shop UI** to **provide additional information to the player** and **improve the user experience**.
+This mod **modifies** the base game **MAM, HUB, and AWESOME Shop UI**
+to **provide additional information to the player** and **improve the user experience**.
 
 It provides no content on its own and _does not alter game progression in any way_ - just quality of life changes.
 

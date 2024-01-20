@@ -6,10 +6,8 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "UObject/UObjectAllocator.h"
 
-#include "FGFoliageIdentifier.h"
 #include "ItemAmount.h"
 #include "FGRecipe.h"
-#include "FGFoliageResourceUserData.h"
 
 #include "MAMTipsBPLib.generated.h"
 

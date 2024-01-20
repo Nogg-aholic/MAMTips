@@ -1,6 +1,5 @@
 #include "MAMTipsBPLib.h"
 #include "MAMTips.h"
-#include "FGFoliageResourceUserData.h"
 #include "Reflection/ClassGenerator.h"
 
 TSubclassOf<UObject> UMAMTipsBPLib::MAMTips_FindOrCreateClass(FString Name, UClass* ParentClass)
