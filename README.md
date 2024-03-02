@@ -7,6 +7,8 @@
 
 **Multiplayer Compatible!** _Can also run as a client-side only mod as long as the server has SML installed._
 
+_If you enjoy my work, please consider donating to my [completely optional tip jar](https://ko-fi.com/robb4)._
+
 This mod **modifies** the base game **MAM, HUB, and AWESOME Shop UI**
 to **provide additional information to the player** and **improve the user experience**.
 
