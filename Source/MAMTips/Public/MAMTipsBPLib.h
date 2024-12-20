@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "UObject/UObjectAllocator.h"
 
 #include "ItemAmount.h"
 #include "FGRecipe.h"
@@ -16,7 +15,6 @@ UCLASS()
 class MAMTIPS_API UMAMTipsBPLib : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
-	friend class UFGFoliageResourceUserData;
 
 	/**
 	  * Safety wrapper around FClassGenerator::GenerateSimpleClass

@@ -1,17 +1,16 @@
 # MAM Enhancer
 
-<!-- ![Early Access version support: full](https://i.imgur.com/1TXo5em.png) -->
-<!-- ![Experimental version support: full](https://i.imgur.com/kvJ4ZoR.png) -->
+<!-- markdownlint-disable MD033 -->
+
 ![Singleplayer compatibility: full](https://i.imgur.com/S8roc0Y.png)
 ![Multiplayer compatibility: full](https://i.imgur.com/EnOtDkM.png)
 
-**Multiplayer Compatible!** _Can also run as a client-side only mod as long as the server has SML installed._
+**Multiplayer Compatible!** Can work client side only - you can even use this mod when connected to a vanilla server!
 
 _If you enjoy my work, please consider donating to my [completely optional tip jar](https://ko-fi.com/robb4)._
 
 This mod **modifies** the base game **MAM, HUB, and AWESOME Shop UI**
 to **provide additional information to the player** and **improve the user experience**.
-
 It provides no content on its own and _does not alter game progression in any way_ - just quality of life changes.
 
 Here is a screenshot of the base game Caterium research tree viewed with the mod's default settings:
