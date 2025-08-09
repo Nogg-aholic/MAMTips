@@ -57,6 +57,7 @@ Check out **LK Aice**'s mod spotlight below, in English or German. Thanks!
       <source src="https://i.imgur.com/V1OrNlE.mp4" autoplay="" controls="" type="video/mp4">
     </video>
 
+* Fix [base-game bug](https://questions.satisfactorygame.com/post/686ec7776b7c57319639c5dc) causing tree tooltips for trees with short descriptions to not fill the entire width of the tooltip
 * Developer functions for helping to test mods with research trees (see more below)
 
 Don't like something this mod does?
